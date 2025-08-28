@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Achal 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <div class="container">
+    <!-- Birthday Message -->
+    <div class="message">
+      <p>Happy Birthday Achal! 🥳<br>
+      Even though we’re 1000 km apart, I hope this little surprise makes you smile. 💕<br>
+      You’re one of the most special people in my life, and I’m so lucky to call you my best friend. 🌸<br><br>
+      PS: Don’t worry Achal, you’re still young at heart (just 2 years older than me 😜).<br>
+      🧓 Fun fact: Having a friend older than you means free life advice forever! 😂
+      </p>
+    </div>
+
+    <!-- Cake -->
+    <div class="cake">
+      🎂<span class="candle">🕯️</span>
+    </div>
+     
+    <!-- Floating Crown -->
+    <div class="crown-float">
+      👑 Respect your elder Achal 👑
+    </div>
+
+    <!-- Dancing Emojis -->
+    <div class="dancing-emojis">
+      🐥 😂 💃 🎶 🐱
+    </div>
+
+    <!-- Photo Section -->
+    <div class="photos">
+      <h2>Your Memories 📸</h2>
+      <img src="a1.jpg" alt="Memory 1">
+      <img src="a5.jpg" alt="Memory 2">
+      <img src="a4.jpg" alt="Memory 3">
+      <!-- Replace with your own images -->
+    </div>
+
+    <!-- Friendship Quiz -->
+    <div class="quiz">
+      <h2>Friendship Quiz 🎮</h2>
+
+      <p>1. Who messages first? 📱</p>
+      <button onclick="checkAnswer(this,'me')">Me</button>
+      <button onclick="checkAnswer(this,'you')">You</button>
+
+      <p>2. Which year did we meet? 📅</p>
+      <button onclick="checkAnswer(this,'2019')">2019</button>
+      <button onclick="checkAnswer(this,'2020')">2020</button>
+      <button onclick="checkAnswer(this,'2021')">2021</button>
+
+      <p>3. Who is more shy? 🙈</p>
+      <button onclick="checkAnswer(this,'me')">Me</button>
+      <button onclick="checkAnswer(this,'you')">You</button>
+
+      <p>4. What is my favourite colour? 🎨</p>
+      <button onclick="checkAnswer(this,'red')">Red</button>
+      <button onclick="checkAnswer(this,'blue')">Blue</button>
+      <button onclick="checkAnswer(this,'pink')">Pink</button>
+
+      <p>5. When will we meet offline? 🤔</p>
+      <button onclick="checkAnswer(this,'nextMonth')">Next Month</button>
+      <button onclick="checkAnswer(this,'nextYear')">Next Year</button>
+      <button onclick="checkAnswer(this,'1010years')">In 1010 years 😂</button>
+
+      <p>6. Who is older? 🎂</p>
+      <button onclick="checkAnswer(this,'achal')">Achal</button>
+      <button onclick="checkAnswer(this,'me')">Me</button>
+
+      <p>7. Who is more lucky to get such a friend? 🍀</p>
+      <button onclick="checkAnswer(this,'me')">Me</button>
+      <button onclick="checkAnswer(this,'she')">She</button>
+
+      <p>8. Who gives better advice? 🧠</p>
+      <button onclick="checkAnswer(this,'achal')">Achal</button>
+      <button onclick="checkAnswer(this,'me')">Me</button>
+
+      <p>9. Who laughs more at silly jokes? 😂</p>
+      <button onclick="checkAnswer(this,'achal')">Achal</button>
+      <button onclick="checkAnswer(this,'me')">Me</button>
+
+      <p>10. Who is the BEST best friend? 🥰</p>
+      <button onclick="checkAnswer(this,'achal')">Achal</button>
+      <button onclick="checkAnswer(this,'me')">Me</button>
+    </div>
+
+    <div class="countdown">
+     <h2>⏳ Countdown until we finally meet offline ⏳</h2>
+    <p id="timer"></p>
+     </div>
+
+    <!-- Music -->
+    <div class="music">
+      <h2>Special Song 🎶</h2>
+      <!-- Birthday Song -->
+        <audio id="bdaySong" autoplay controls loop>
+        <source src="Soulmate (PenduJatt.Com.Se).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
